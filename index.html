@@ -5,97 +5,90 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Главная - Пушистая Пучина</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Главная - PSCoop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<header>
-    <a href="http://htmlbook.ru/html/a">
-        <img
-                src="logo.png"
-                alt="Logo"
-                width="70">
-        <span>Пушистая Пучина</span>
-    </a>
+<header id="header">
+    <div class="container">
+        <a id="logo" href="http://f0718322.xsph.ru/">
+            <img
+                    src="img/Logo.png" alt="Logo">
+            <span>PS Coop</span>
+        </a>
 
-    <nav>
-        <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Описание</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Описание</a></li>
+            </ul>
+        </nav>
 
+        <button class="btn btn-auth">Войти</button>
+
+    </div>
 </header>
 
-<hr>
-
 <main>
-    <div>
-        <h1>Пушистая Пучина</h1>
-        <img src="cat1.jpg" alt="Cat">
-    </div>
-
-    <div>
-        <h2>Каталог пушистых ублюдков</h2>
+    <div class="container">
         <div>
-            <div>
-                <h3>Забавные коты</h3>
-                <img src="cat2.png" alt="Fanny cat">
-                <p>В этом каталоге котики заставят вас улыбнуться.</p>
-                <a href="#">Кнопка</a>
-            </div>
-
-            <div>
-                <h3>Грустные коты</h3>
-                <img src="cat3.jpg" alt="Sad cat">
-                <p>Котики тоже грустят, не давайте им повода для грусти, проводите с ними больше времени</p>
-                <a href="#">Кнопка</a>
-            </div>
-
-            <div>
-                <h3>Злобные коты</h3>
-                <img src="cat4.jpg" alt="Angry cat">
-                <p> Одна из великих цитат Джейсона Стэтхэма гласит "Видишь злого кота — готовь ебало"</p>
-                <a href="#">Кнопка</a>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <h2>Отзывы</h2>
-    </div>
-    <div>
-    <h3>О героях</h3>
-        <div class="lirics">
-            <p class="centered">— Типа стих —</p>
-            <p> Пушистый был героем храбрым</p>
-            <p> Лизал яйцо, гонял мышей.</p>
-            <p> За голубями прыгал с крыши</p>
-            <p> И тыгыдыкал целый день.</p>
+            <h1>PS Coop</h1>
+            <img src="img/coop.jpg" alt="Coop">
         </div>
 
-    </div>
+        <div>
+            <h2>Игры на двоих</h2>
+            <div>
+                <div>
+                    <h3>Играем вдвоем локально</h3>
+                    <img src="img/cooplocal.jpg" alt="Coop local">
+                    <p>В этом каталоге можно найти игры на двоих и более человек с локальным мультиплеером.</p>
+                    <a href="#">Кнопка</a>
+                </div>
 
-    <div>
-        <p>Любой кот может попасть в наш каталог, главное учитывайте его желание. Не будьте эгоистами.</p>
-        <button>Загрузить котика в каталог</button>
+                <div>
+                    <h3>Игры вдвоем по сети</h3>
+                    <img src="img/cooponline.jpg" alt="Coop online">
+                    <p>В этом каталоге собраны игры с онлайн мультиплеером, в которых можно играть с друзьями по сети</p>
+                    <a href="#">Кнопка</a>
+                </div>
+
+                <div>
+                    <h3>Хиты</h3>
+                    <img src="img/gamehit.jpg" alt="Hit">
+                    <p> Тут можно посмотреть игры, в которые по нашему мнению стоит поиграть на Playstation</p>
+                    <a href="#">Кнопка</a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Обратная связь</h2>
+        </div>
+
+        <div>
+            <p>Если вы нашли игру, которой еще нет в нашем каталоге, расскажите нам о ней, и мы обязательно добавим ее в каталог</p>
+            <button>Рассказать об игре</button>
+        </div>
     </div>
 
 </main>
 
-<hr>
+<footer >
+    <div class="container">
+        <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
 
-<footer>
-    <ul>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Контакты</a></li>
-    </ul>
-    <ul>
-        <li><a href="#">Политика</a></li>
-        <li><a href="#">Условия</a></li>
-    </ul>
+        <ul>
+            <li><a href="#">Политика конфидециальности</a></li>
+            <li><a href="#">Условия использования</a></li>
+        </ul>
+    </div>
 </footer>
 
 </body>
