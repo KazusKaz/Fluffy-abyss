@@ -37,7 +37,7 @@ main {
 
 #header {
     background-color: #dcdbd9;
-    box-shadow: 1px 1px 8px 1px #475468;
+    box-shadow: 0 1px 8px 0 #475468;
     position: fixed;
     width: 100%;
     height: 65px;
@@ -66,16 +66,16 @@ main {
     color: #111115;
 }
 
-#logo {
+.logo {
     float: left;
     display: flex;
 }
 
-#logo img {
+.logo img {
     width: 70px;
 }
 
-#logo span {
+.logo span {
     font-size: 30px;
     font-weight: bold;
     color: #7cc2c9;
@@ -98,4 +98,56 @@ main {
 
 .btn-auth {
     float: right;
+}
+
+footer {
+    background-color: #dcdbd9;
+    margin-top: 40px;
+    box-shadow: 0 1px 8px 0 #475468;
+}
+
+.first-footer-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .footer-menu {
+    list-style: none;
+}
+
+footer .footer-menu a {
+    color: #475468;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .footer-menu a:hover {
+    color: #61728d;
+}
+
+.last-footer-block {
+    background-color: #9c9c9c;
+    color: #e1e2e6;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.last-footer-block span {
+    cursor: default;
+}
+
+.last-footer-block ul {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.last-footer-block ul li:first-child {
+    margin-right: 15px;
+}
+
+.last-footer-block a:hover {
+    color: #fff;
 }
