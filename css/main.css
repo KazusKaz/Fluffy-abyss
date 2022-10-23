@@ -3,6 +3,7 @@
     padding: 0;
     outline: none;
     text-decoration: none;
+    color: #454560;
 }
 
 a {
@@ -11,6 +12,10 @@ a {
 
 h1 {
     font-size: 75px;
+}
+
+h2 {
+    font-size: 33px;
 }
 
 body {
@@ -82,7 +87,7 @@ main {
 .logo span {
     font-size: 30px;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff449;
     margin-left: 5px;
 }
 
@@ -165,15 +170,92 @@ footer .footer-menu a:hover {
     margin-bottom: 30px;
 }
 
+
+
 .head-block h1 {
     padding-left: 5%;
-    color: #fbfbff;
+    color: #fff449;
     padding-top: 250px;
 }
 
 .head-block p {
     padding-left: 5%;
     font-size: 30px;
-    color: #fbfbff;
+    color: #fff449;
     margin-top: 30px;
+}
+
+.catalog-page h2 {
+    color: #454560;
+}
+
+.filter-block {
+    float: left;
+    width: 265px;
+    height: 300px;
+    border: 1px solid #5f5f68;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.catalog-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-block {
+
+}
+
+.card-item {
+    height: 375px;
+    border: 1px solid #5f5f68;
+    border-radius: 7px;
+    padding: 16px;
+    margin-top: 15px;
+}
+
+.card-item img {
+    float: left;
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+
+.card-item .card-text-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item .card-text-items h3 {
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 10px;
+}
+
+.card-item .card-text-items .btn {
+    opacity: 0.9;
+    font-weight: normal;
+    padding: 8px 25px;
+    color: #fff;
+    background-color: #47c469;
+    border: none;
+    margin-top: 236px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-item .card-text-items p {
+    color: #454560;
+    font-size: 18px;
+    max-height: 110px;
+    overflow: hidden;
+    margin-bottom: -5px;
 }
